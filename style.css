@@ -1,0 +1,92 @@
+:root {
+    --red: #cd4541;
+}
+
+.navbar-nav > .nav-item {
+    margin-left: 15px;
+  }
+
+
+  section > .typewrite {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  section {
+    display: flex;
+    align-items: center;
+    min-height: 800px;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .red {
+    color: var(--red);
+  }
+
+  .cs-logo {
+    width: 350px;
+  }
+
+  .btn-primary {
+    border: 0px;
+    color: white;
+    background-color: var(--red) !important;
+  }
+
+.logo-space {
+  padding-top: 16%;
+}
+  
+  .card {
+    margin-bottom: 25px;
+    box-shadow: 0 10px 40px rgba(59, 43, 91, 0.3);
+  }
+
+  p.card-text {
+    min-height: 75px;
+  }
+  
+  .background {
+      margin-top: 130px;
+      padding-top: 60px;
+      background-color: rgb(216, 229, 233);
+  }
+
+  #third {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(banner.jpg);
+
+  }
+
+  #fourth {
+      background-color: rgb(216, 229, 233);
+      padding-bottom: 80px;
+      padding-top: 100px;
+  }
+
+  #fourth > .container > p:nth-last-of-type(1) {
+    font-size: 25px;
+    margin-bottom: 100px;
+  }
+
+.container {
+padding-bottom: 40px;
+
+}
+
+footer {    
+    padding-top: 10px;
+    padding-bottom: 13px;
+    color: black;
+    background-color: pink;
+    text-align: center;
+}
+
+.WP {
+    color: rebeccapurple;
+   font-size: 18px;
+}
